@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav, footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #1F2937;
+    color: aliceblue;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.info-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: white;
+    height: 400px;
+}
+
+.main-left, .main-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-left p {
+    margin-left: 19px;
+    padding: 16px;
+}
+
+#first-button {
+    margin: 15px 0;
+    padding: 5px 25px;
+    border: solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+
+.pic-container {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.info-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-pic p {
+    text-align: center;
+}
+
+.info-pic img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.quote {
+    text-align: left;
+    font-size: 30px;
+    background-color: #E5E7EB;
+    padding: 40px;
+    height: 300px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.call-action {
+    height: 200px;
+}
+
+.call-container {
+    background-color: #3882F6;
+    color: white;
+    margin: 30px;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.call-left, .call-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+#first-button.second-button {
+    font-size: large;
+}
+
