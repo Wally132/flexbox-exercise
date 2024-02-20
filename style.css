@@ -126,19 +126,14 @@ h1 {
     margin: 30px;
     height: auto;
     width: auto;
-    padding: 30px;
+    padding: 46px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     border-radius: 8px;
+    align-items: center;
 }
 
-.call-left, .call-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 24px;
-}
+
 
 #first-button.second-button {
     font-size: large;
